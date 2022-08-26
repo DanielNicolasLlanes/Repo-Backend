@@ -49,8 +49,8 @@ public class CEducacion {
         return new ResponseEntity(new Mensaje("Educacion creada"),HttpStatus.OK);
     }
 
-    @GetMapping("/lista")
-    public ResponseEntity<List<Educacion>> list() {
+   @GetMapping("/lista")
+    public ResponseEntity<List<Educacion>> list(){
         List<Educacion> list = sEducacion.list();
         return new ResponseEntity(list, HttpStatus.OK);
     }
