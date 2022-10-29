@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "https://porfoliofronted.web.app/")
+//CrossOrigin(origins = "http://localhost:4200")
+
 
 public class UsuarioControlador {
     @Autowired IUsuarioServicio iusuarioServicio;
